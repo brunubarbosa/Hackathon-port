@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/Users/rogeriolima/Downloads/quickstart-unity-master/database/Hackathon_Portos/Assembly-CSharp.csproj",
+  "TargetFramework": "v4.5",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
