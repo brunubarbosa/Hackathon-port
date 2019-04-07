@@ -1,0 +1,10 @@
+.wrapper-options {
+    position: absolute;
+    background-color: red;
+    width: 100%;
+}
+
+.wrapper-options li {
+    list-style: none;
+
+}
