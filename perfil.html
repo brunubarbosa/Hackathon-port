@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>INSPINIA | Main view</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link href="css/progress.css" rel="stylesheet">
+    <link href="css/perfil.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    
+    <div id="wrapper">
+        
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element">
+                            <img alt="image" class="rounded-circle w-25" src="img/profile_small.jpg">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <span class="block m-t-xs font-bold">Example user</span>
+                                <span class="text-muted text-xs block">menu <b class="caret"></b></span>
+                            </a>
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li><a class="dropdown-item" href="login.html">Logout</a></li>
+                            </ul>
+                        </div>
+                        <div class="logo-element">
+                            IN+
+                        </div>
+                    </li>
+                    <li class="active">
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Main view</span></a>
+                    </li>
+                    <li>
+                        <a href="minor.html"><i class="fa fa-th-large"></i> <span class="nav-label">Minor view</span> </a>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+        
+        <div id="page-wrapper" class="gray-bg">
+            <div class="row border-bottom">
+                <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
+                    <div class="navbar-header">
+                        
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                        <form role="search" class="navbar-form-custom" method="post" action="#">
+                            <div class="form-group">
+                                <input type="text" placeholder="Pesquisar..." class="form-control" name="top-search" id="top-search">
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="nav navbar-top-links navbar-right">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-sign-out"></i> Log out
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </nav>
+            </div>
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-sm-4">
+                    <h2>Dashboard</h2>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Dashboard</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="wrapper wrapper-content animated fadeInRight">
+                
+                <div class="row">
+                    <div class="row m-b-lg m-t-lg">
+                        <div class="col-md-6">
+                            
+                            <div class="profile-image">
+                                <img src="img/profile_small.jpg" class="rounded-circle circle-border m-b-md" alt="profile">
+                            </div>
+                            <div class="profile-info">
+                                <div class="">
+                                    <div>
+                                        <h2 class="no-margins">
+                                            Bruno Barbosa
+                                        </h2>
+                                        <h4>Operador</h4>
+                                        <div>
+                                            <span>Engajamento</span>
+                                            <div class="wrapper-progress-v2 mt-2">
+                                                <div style="width: 20%;" class="progress-v2-inside"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <table class="table small m-b-xs">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <strong>142</strong> Projects
+                                        </td>
+                                        <td>
+                                            <strong>22</strong> Followers
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>61</strong> Comments
+                                        </td>
+                                        <td>
+                                            <strong>54</strong> Articles
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>154</strong> Tags
+                                        </td>
+                                        <td>
+                                            <strong>32</strong> Friends
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-3">
+                            <small>Sales in last 24h</small>
+                            <h2 class="no-margins">206 480</h2>
+                            <div id="sparkline1"><canvas style="display: inline-block; width: 247.25px; height: 50px; vertical-align: top;" width="247" height="50"></canvas></div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="col-lg-3">
+                        <ul class="stat-list">
+                            <li>
+                                <h2 class="no-margins">2,346</h2>
+                                <small>Total orders in period</small>
+                                <div class="stat-percent">48% <i class="fa fa-level-up text-navy"></i></div>
+                                <div class="progress progress-mini">
+                                    <div style="width: 48%;" class="progress-bar"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <h2 class="no-margins ">4,422</h2>
+                                <small>Orders in last month</small>
+                                <div class="stat-percent">60% <i class="fa fa-level-down text-navy"></i></div>
+                                <div class="progress progress-mini">
+                                    <div style="width: 60%;" class="progress-bar"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="ibox ">
+                            <div class="ibox-title">
+                                <div>
+                                    <div class=" d-inline">
+                                        <h5>Curso por módulos:</h5>
+                                    </div>
+                                    <select class="js--curso-list-expand form-control" name="" id="">
+                                        <option class="js--drop-option" value="2">Operador de portainer</option>
+                                        <option class="js--drop-option" value="1">gg</option>
+                                    </select>
+                                    <!-- <ul class="js--wrapper-options wrapper-options">
+                                        <li class="js--drop-option" data-curso="1">curso 1</li>
+                                        <li class="js--drop-option" data-curso="2">curso 2</li>
+                                    </ul> -->
+                                </div>
+                                <div class="ibox-tools">
+                                    <a class="collapse-link">
+                                    </a>
+                                    <a class="close-link">
+                                        <i class="fa fa-times"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="js--wrapper-table ibox-content table-responsive">
+                                <table class="table table-hover no-margins">
+                                    <thead>
+                                        <tr>
+                                            <th>Módulo</th>
+                                            <th>Inicio</th>
+                                            <th>Progresso</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Módulo 1</td>
+                                            <td>11/02/2019</td>
+                                            <td>
+                                                <div class="wrapper-progress-v2">
+                                                    <div style="width: 21%;" class="progress-v2-inside"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Módulo 2</td>
+                                            <td>21/02/2019</td>
+                                            <td>
+                                                <div class="wrapper-progress-v2">
+                                                    <div style="width: 40%;" class="progress-v2-inside"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Módulo 3</td>
+                                            <td>11:20pm</td>
+                                            <td>
+                                                <div class="wrapper-progress-v2">
+                                                    <div style="width: 59%;" class="progress-v2-inside"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Módulo 4</td>
+                                            <td> 11:20pm</td>
+                                            <td>
+                                                <div class="wrapper-progress-v2">
+                                                    <div style="width: 20%;" class="progress-v2-inside"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h2 class="mt-2">Horas cursadas</h2>
+                        
+                        
+                        
+                            <div class="row">
+                                    <div class="col-lg-6">
+                                            <div class="ibox ">
+                                                <div class="ibox-title">
+                                                    <h5>No ultimo mês</h5>
+                                                </div>
+                                                <div class="ibox-content">
+                                                    <h1 class="no-margins">7 Horas</h1>
+                                                    <div class="stat-percent font-bold text-success">98% <i class="fa fa-bolt"></i></div>
+                                                    <small>Total income</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="ibox ">
+                                                <div class="ibox-title">
+                                                    <h5>No último ano</h5>
+                                                </div>
+                                                <div class="ibox-content">
+                                                    <h1 class="no-margins">37 Horas</h1>
+                                                    <div class="stat-percent font-bold text-info">20% <i class="fa fa-level-up"></i></div>
+                                                    <small>New orders</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                            </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+            
+            
+            
+            
+            <div class="footer">
+                <div class="pull-right">
+                    10GB of <strong>250GB</strong> Free.
+                </div>
+                <div>
+                    <strong>Copyright</strong> Example Company &copy; 2014-2018
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Mainly scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/perfil.js"></script>
+    
+    
+</body>
+
+</html>
