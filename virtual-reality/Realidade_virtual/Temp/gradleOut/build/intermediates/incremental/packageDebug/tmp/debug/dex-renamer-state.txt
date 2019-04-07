@@ -1,0 +1,4 @@
+#Sun Apr 07 10:46:32 BRT 2019
+base.0=/Users/rogeriolima/Downloads/quickstart-unity-master/database/Hackathon_Portos/Temp/gradleOut/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
